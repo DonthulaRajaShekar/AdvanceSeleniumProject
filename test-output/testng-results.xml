@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="3" failed="0" skipped="3">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-08T12:13:46 IST" name="Suite" finished-at="2023-04-08T12:15:23 IST" duration-ms="97451">
+    <groups>
+      <group name="RegressionSuit">
+        <method signature="CreateOrganizationTest.demoScript()[pri:0, instance:Vitiger.Organizations.CreateOrganizationTest@10e31a9a]" name="demoScript" class="Vitiger.Organizations.CreateOrganizationTest"/>
+        <method signature="CreateOrganizationTest.demoScript()[pri:0, instance:Vitiger.Organizations.CreateOrganizationTest@235834f2]" name="demoScript" class="Vitiger.Organizations.CreateOrganizationTest"/>
+      </group> <!-- RegressionSuit -->
+      <group name="SmokeSuite">
+        <method signature="CreateOrganizationTest.CreateOrganizationTest()[pri:0, instance:Vitiger.Organizations.CreateOrganizationTest@10e31a9a]" name="CreateOrganizationTest" class="Vitiger.Organizations.CreateOrganizationTest"/>
+        <method signature="CreateOrganizationTest.CreateOrganizationTest()[pri:0, instance:Vitiger.Organizations.CreateOrganizationTest@235834f2]" name="CreateOrganizationTest" class="Vitiger.Organizations.CreateOrganizationTest"/>
+      </group> <!-- SmokeSuite -->
+    </groups>
+    <test started-at="2023-04-08T12:13:46 IST" name="Test-Runner-Chrome" finished-at="2023-04-08T12:14:22 IST" duration-ms="36256">
+      <class name="Vitiger.Organizations.CreateOrganizationTest">
+        <test-method is-config="true" signature="bcConfig(java.lang.String)[pri:0, instance:Vitiger.Organizations.CreateOrganizationTest@10e31a9a]" started-at="2023-04-08T12:13:47 IST" name="bcConfig" finished-at="2023-04-08T12:14:22 IST" duration-ms="35580" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.remote.http.ConnectionFailedException">
+            <message>
+              <![CDATA[Unable to establish websocket connection to http://localhost:50551/devtools/browser/46e6c94c-284d-49fc-8fef-0e357e55619e
+Build info: version: '4.8.0', revision: '267030adea'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: driver.version: ChromeDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.remote.http.ConnectionFailedException: Unable to establish websocket connection to http://localhost:50551/devtools/browser/46e6c94c-284d-49fc-8fef-0e357e55619e
+Build info: version: '4.8.0', revision: '267030adea'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: driver.version: ChromeDriver
+at org.openqa.selenium.remote.http.netty.NettyWebSocket.<init>(NettyWebSocket.java:102)
+at org.openqa.selenium.remote.http.netty.NettyWebSocket.lambda$create$3(NettyWebSocket.java:128)
+at org.openqa.selenium.remote.http.netty.NettyClient.openSocket(NettyClient.java:107)
+at org.openqa.selenium.devtools.Connection.<init>(Connection.java:78)
+at org.openqa.selenium.chromium.ChromiumDriver.lambda$new$2(ChromiumDriver.java:116)
+at java.base/java.util.Optional.map(Optional.java:260)
+at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:114)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:82)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:50)
+at vitiger.GenericUtilites.BaseClass.bcConfig(BaseClass.java:50)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.remote.http.ConnectionFailedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bcConfig -->
+        <test-method is-config="true" signature="bmConfig()[pri:0, instance:Vitiger.Organizations.CreateOrganizationTest@10e31a9a]" started-at="2023-04-08T12:14:22 IST" name="bmConfig" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1680936262606" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmConfig -->
+        <test-method signature="CreateOrganizationTest()[pri:0, instance:Vitiger.Organizations.CreateOrganizationTest@10e31a9a]" started-at="2023-04-08T12:14:22 IST" name="CreateOrganizationTest" finished-at="2023-04-08T12:14:22 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.remote.http.ConnectionFailedException">
+            <message>
+              <![CDATA[Unable to establish websocket connection to http://localhost:50551/devtools/browser/46e6c94c-284d-49fc-8fef-0e357e55619e
+Build info: version: '4.8.0', revision: '267030adea'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: driver.version: ChromeDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.remote.http.ConnectionFailedException: Unable to establish websocket connection to http://localhost:50551/devtools/browser/46e6c94c-284d-49fc-8fef-0e357e55619e
+Build info: version: '4.8.0', revision: '267030adea'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: driver.version: ChromeDriver
+at org.openqa.selenium.remote.http.netty.NettyWebSocket.<init>(NettyWebSocket.java:102)
+at org.openqa.selenium.remote.http.netty.NettyWebSocket.lambda$create$3(NettyWebSocket.java:128)
+at org.openqa.selenium.remote.http.netty.NettyClient.openSocket(NettyClient.java:107)
+at org.openqa.selenium.devtools.Connection.<init>(Connection.java:78)
+at org.openqa.selenium.chromium.ChromiumDriver.lambda$new$2(ChromiumDriver.java:116)
+at java.base/java.util.Optional.map(Optional.java:260)
+at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:114)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:82)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:50)
+at vitiger.GenericUtilites.BaseClass.bcConfig(BaseClass.java:50)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.remote.http.ConnectionFailedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateOrganizationTest -->
+        <test-method is-config="true" signature="amConfig()[pri:0, instance:Vitiger.Organizations.CreateOrganizationTest@10e31a9a]" started-at="2023-04-08T12:14:22 IST" name="amConfig" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1680936262689" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amConfig -->
+        <test-method is-config="true" signature="bmConfig()[pri:0, instance:Vitiger.Organizations.CreateOrganizationTest@10e31a9a]" started-at="2023-04-08T12:14:22 IST" name="bmConfig" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1680936262691" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmConfig -->
+        <test-method signature="demoScript()[pri:0, instance:Vitiger.Organizations.CreateOrganizationTest@10e31a9a]" started-at="2023-04-08T12:14:22 IST" name="demoScript" finished-at="2023-04-08T12:14:22 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.remote.http.ConnectionFailedException">
+            <message>
+              <![CDATA[Unable to establish websocket connection to http://localhost:50551/devtools/browser/46e6c94c-284d-49fc-8fef-0e357e55619e
+Build info: version: '4.8.0', revision: '267030adea'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: driver.version: ChromeDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.remote.http.ConnectionFailedException: Unable to establish websocket connection to http://localhost:50551/devtools/browser/46e6c94c-284d-49fc-8fef-0e357e55619e
+Build info: version: '4.8.0', revision: '267030adea'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: driver.version: ChromeDriver
+at org.openqa.selenium.remote.http.netty.NettyWebSocket.<init>(NettyWebSocket.java:102)
+at org.openqa.selenium.remote.http.netty.NettyWebSocket.lambda$create$3(NettyWebSocket.java:128)
+at org.openqa.selenium.remote.http.netty.NettyClient.openSocket(NettyClient.java:107)
+at org.openqa.selenium.devtools.Connection.<init>(Connection.java:78)
+at org.openqa.selenium.chromium.ChromiumDriver.lambda$new$2(ChromiumDriver.java:116)
+at java.base/java.util.Optional.map(Optional.java:260)
+at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:114)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:82)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:50)
+at vitiger.GenericUtilites.BaseClass.bcConfig(BaseClass.java:50)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.remote.http.ConnectionFailedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demoScript -->
+        <test-method is-config="true" signature="amConfig()[pri:0, instance:Vitiger.Organizations.CreateOrganizationTest@10e31a9a]" started-at="2023-04-08T12:14:22 IST" name="amConfig" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1680936262707" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amConfig -->
+        <test-method is-config="true" signature="bmConfig()[pri:0, instance:Vitiger.Organizations.CreateOrganizationTest@10e31a9a]" started-at="2023-04-08T12:14:22 IST" name="bmConfig" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1680936262709" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmConfig -->
+        <test-method signature="regional()[pri:0, instance:Vitiger.Organizations.CreateOrganizationTest@10e31a9a]" started-at="2023-04-08T12:14:22 IST" name="regional" finished-at="2023-04-08T12:14:22 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.remote.http.ConnectionFailedException">
+            <message>
+              <![CDATA[Unable to establish websocket connection to http://localhost:50551/devtools/browser/46e6c94c-284d-49fc-8fef-0e357e55619e
+Build info: version: '4.8.0', revision: '267030adea'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: driver.version: ChromeDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.remote.http.ConnectionFailedException: Unable to establish websocket connection to http://localhost:50551/devtools/browser/46e6c94c-284d-49fc-8fef-0e357e55619e
+Build info: version: '4.8.0', revision: '267030adea'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: driver.version: ChromeDriver
+at org.openqa.selenium.remote.http.netty.NettyWebSocket.<init>(NettyWebSocket.java:102)
+at org.openqa.selenium.remote.http.netty.NettyWebSocket.lambda$create$3(NettyWebSocket.java:128)
+at org.openqa.selenium.remote.http.netty.NettyClient.openSocket(NettyClient.java:107)
+at org.openqa.selenium.devtools.Connection.<init>(Connection.java:78)
+at org.openqa.selenium.chromium.ChromiumDriver.lambda$new$2(ChromiumDriver.java:116)
+at java.base/java.util.Optional.map(Optional.java:260)
+at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:114)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:82)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:50)
+at vitiger.GenericUtilites.BaseClass.bcConfig(BaseClass.java:50)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.remote.http.ConnectionFailedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- regional -->
+        <test-method is-config="true" signature="amConfig()[pri:0, instance:Vitiger.Organizations.CreateOrganizationTest@10e31a9a]" started-at="2023-04-08T12:14:22 IST" name="amConfig" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1680936262718" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amConfig -->
+        <test-method is-config="true" signature="acConfig()[pri:0, instance:Vitiger.Organizations.CreateOrganizationTest@10e31a9a]" started-at="2023-04-08T12:14:22 IST" name="acConfig" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1680936262724" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- acConfig -->
+      </class> <!-- Vitiger.Organizations.CreateOrganizationTest -->
+    </test> <!-- Test-Runner-Chrome -->
+    <test started-at="2023-04-08T12:13:46 IST" name="Test-Runner-Firefox" finished-at="2023-04-08T12:15:23 IST" duration-ms="97451">
+      <class name="Vitiger.Organizations.CreateOrganizationTest">
+        <test-method is-config="true" signature="bsConfig()[pri:0, instance:Vitiger.Organizations.CreateOrganizationTest@235834f2]" started-at="2023-04-08T12:13:46 IST" name="bsConfig" finished-at="2023-04-08T12:13:46 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bsConfig -->
+        <test-method is-config="true" signature="bcConfig(java.lang.String)[pri:0, instance:Vitiger.Organizations.CreateOrganizationTest@235834f2]" started-at="2023-04-08T12:13:47 IST" name="bcConfig" finished-at="2023-04-08T12:14:03 IST" duration-ms="16070" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bcConfig -->
+        <test-method is-config="true" signature="bmConfig()[pri:0, instance:Vitiger.Organizations.CreateOrganizationTest@235834f2]" started-at="2023-04-08T12:14:03 IST" name="bmConfig" finished-at="2023-04-08T12:14:18 IST" duration-ms="15385" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmConfig -->
+        <test-method signature="CreateOrganizationTest()[pri:0, instance:Vitiger.Organizations.CreateOrganizationTest@235834f2]" started-at="2023-04-08T12:14:18 IST" name="CreateOrganizationTest" finished-at="2023-04-08T12:14:52 IST" duration-ms="34229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateOrganizationTest -->
+        <test-method is-config="true" signature="amConfig()[pri:0, instance:Vitiger.Organizations.CreateOrganizationTest@235834f2]" started-at="2023-04-08T12:14:52 IST" name="amConfig" finished-at="2023-04-08T12:14:57 IST" duration-ms="4895" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amConfig -->
+        <test-method is-config="true" signature="bmConfig()[pri:0, instance:Vitiger.Organizations.CreateOrganizationTest@235834f2]" started-at="2023-04-08T12:14:57 IST" name="bmConfig" finished-at="2023-04-08T12:15:02 IST" duration-ms="4673" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmConfig -->
+        <test-method signature="demoScript()[pri:0, instance:Vitiger.Organizations.CreateOrganizationTest@235834f2]" started-at="2023-04-08T12:15:02 IST" name="demoScript" finished-at="2023-04-08T12:15:02 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demoScript -->
+        <test-method is-config="true" signature="amConfig()[pri:0, instance:Vitiger.Organizations.CreateOrganizationTest@235834f2]" started-at="2023-04-08T12:15:02 IST" name="amConfig" finished-at="2023-04-08T12:15:08 IST" duration-ms="5561" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amConfig -->
+        <test-method is-config="true" signature="bmConfig()[pri:0, instance:Vitiger.Organizations.CreateOrganizationTest@235834f2]" started-at="2023-04-08T12:15:08 IST" name="bmConfig" finished-at="2023-04-08T12:15:14 IST" duration-ms="6570" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmConfig -->
+        <test-method signature="regional()[pri:0, instance:Vitiger.Organizations.CreateOrganizationTest@235834f2]" started-at="2023-04-08T12:15:14 IST" name="regional" finished-at="2023-04-08T12:15:14 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- regional -->
+        <test-method is-config="true" signature="amConfig()[pri:0, instance:Vitiger.Organizations.CreateOrganizationTest@235834f2]" started-at="2023-04-08T12:15:14 IST" name="amConfig" finished-at="2023-04-08T12:15:20 IST" duration-ms="5571" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amConfig -->
+        <test-method is-config="true" signature="acConfig()[pri:0, instance:Vitiger.Organizations.CreateOrganizationTest@235834f2]" started-at="2023-04-08T12:15:20 IST" name="acConfig" finished-at="2023-04-08T12:15:23 IST" duration-ms="3656" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- acConfig -->
+        <test-method is-config="true" signature="asConfig()[pri:0, instance:Vitiger.Organizations.CreateOrganizationTest@235834f2]" started-at="2023-04-08T12:15:24 IST" name="asConfig" finished-at="2023-04-08T12:15:24 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- asConfig -->
+      </class> <!-- Vitiger.Organizations.CreateOrganizationTest -->
+    </test> <!-- Test-Runner-Firefox -->
+  </suite> <!-- Suite -->
+</testng-results>
